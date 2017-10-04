@@ -1,0 +1,11 @@
+main: myfakep.Main
+name: myfakep
+version: 0.9
+author: paolo
+description: Crea finto giocatore
+commands:
+  fp:
+    description: comando che aggiunge un fakeplayer o cambia il numero dei giocatori nel ping
+    usage: /fp [nome] | [numero]
+    permission: myfakep.fp
+    permission-message: You don't have the myfakep.command permission.
